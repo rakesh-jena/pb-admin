@@ -49,7 +49,7 @@ function SalesChartWidget(props) {
   return (
     <PapperBlock whiteBg noMargin title={intl.formatMessage(messages.product_title)} icon="bar_chart" desc="">
       <Grid container spacing={2}>
-        <Grid item md={8} xs={12}>
+        <Grid item md={12} xs={12}>
           <ul className={classes.bigResume}>
             <li>
               <Avatar className={classNames(classes.avatar, classes.pinkAvatar)}>
@@ -94,14 +94,15 @@ function SalesChartWidget(props) {
               <Typography variant="h6">
                 <span className={classes.tealText}>1021</span>
                 <Typography>
-                  <FormattedMessage {...messages.vouchers} />
+                  {/* <FormattedMessage {...messages.vouchers} /> */}
+                  Parkings
                 </Typography>
               </Typography>
             </li>
           </ul>
           <div className={classes.chartWrap}>
             <div className={classes.chartFluid}>
-              <ResponsiveContainer width={800} height="80%">
+              <ResponsiveContainer height="100%">
                 <BarChart
                   data={dataSales}
                 >
@@ -110,19 +111,20 @@ function SalesChartWidget(props) {
                   <CartesianGrid vertical={false} strokeDasharray="3 3" />
                   <CartesianAxis />
                   <Tooltip />
-                  <Bar dataKey="Fashions" fill={color.primary} />
-                  <Bar dataKey="Electronics" fill={color.secondary} />
-                  <Bar dataKey="Toys" fill={color.third} />
-                  <Bar dataKey="Vouchers" fill={color.fourth} />
+                  <Bar dataKey="Users" fill={color.primary} />
+                  <Bar dataKey="Bookings" fill={color.secondary} />
+                  <Bar dataKey="Refunds" fill={color.third} />
+                  <Bar dataKey="Parkings" fill={color.fourth} />
                 </BarChart>
               </ResponsiveContainer>
             </div>
           </div>
         </Grid>
-        <Grid item md={4} xs={12}>
+        {/* <Grid item md={4} xs={12}>
           <Typography className={classes.smallTitle} variant="button">
             <CardGiftcard className={classes.leftIcon} />
-            <FormattedMessage {...messages.today_sales} />
+            
+            Sales of PB Pass
           </Typography>
           <Divider className={classes.divider} />
           <Grid container className={classes.secondaryWrap}>
@@ -145,7 +147,7 @@ function SalesChartWidget(props) {
               <Legend iconType="circle" verticalALign="bottom" iconSize={10} />
             </PieChart>
           </Grid>
-        </Grid>
+        </Grid> */}
       </Grid>
     </PapperBlock>
   );

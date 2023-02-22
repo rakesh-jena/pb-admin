@@ -264,174 +264,174 @@ export const data9 = [
 export const dataPerformance = [
   {
     name: 'Jan',
-    Attend: 40,
-    Task: 124,
-    Complaint: 17,
-    Referrals: 20
+    ComplaintsRaised: 40,
+    ComplaintsResolved: 124,
+    TaskRaised: 17,
+    TaskCompleted: 20
   },
   {
     name: 'Feb',
-    Attend: 45,
-    Task: 100,
-    Complaint: 2,
-    Referrals: 100
+    ComplaintsRaised: 45,
+    ComplaintsResolved: 100,
+    TaskRaised: 2,
+    TaskCompleted: 100
   },
   {
     name: 'Mar',
-    Attend: 27,
-    Task: 20,
-    Complaint: 0,
-    Referrals: 80
+    ComplaintsRaised: 27,
+    ComplaintsResolved: 20,
+    TaskRaised: 0,
+    TaskCompleted: 80
   },
   {
     name: 'Apr',
-    Attend: 50,
-    Task: 120,
-    Complaint: 29,
-    Referrals: 14
+    ComplaintsRaised: 50,
+    ComplaintsResolved: 120,
+    TaskRaised: 29,
+    TaskCompleted: 14
   },
   {
     name: 'May',
-    Attend: 32,
-    Task: 117,
-    Complaint: 20,
-    Referrals: 86
+    ComplaintsRaised: 32,
+    ComplaintsResolved: 117,
+    TaskRaised: 20,
+    TaskCompleted: 86
   },
   {
     name: 'Jun',
-    Attend: 50,
-    Task: 34,
-    Complaint: 11,
-    Referrals: 29
+    ComplaintsRaised: 50,
+    ComplaintsResolved: 34,
+    TaskRaised: 11,
+    TaskCompleted: 29
   },
   {
     name: 'Jul',
-    Attend: 24,
-    Task: 40,
-    Complaint: 3,
-    Referrals: 40
+    ComplaintsRaised: 24,
+    ComplaintsResolved: 40,
+    TaskRaised: 3,
+    TaskCompleted: 40
   },
   {
     name: 'Aug',
-    Attend: 32,
-    Task: 117,
-    Complaint: 20,
-    Referrals: 86
+    ComplaintsRaised: 32,
+    ComplaintsResolved: 117,
+    TaskRaised: 20,
+    TaskCompleted: 86
   },
   {
     name: 'Sept',
-    Attend: 40,
-    Task: 20,
-    Complaint: 24,
-    Referrals: 100
+    ComplaintsRaised: 40,
+    ComplaintsResolved: 20,
+    TaskRaised: 24,
+    TaskCompleted: 100
   },
   {
     name: 'Sept',
-    Attend: 27,
-    Task: 20,
-    Complaint: 0,
-    Referrals: 80
+    ComplaintsRaised: 27,
+    ComplaintsResolved: 20,
+    TaskRaised: 0,
+    TaskCompleted: 80
   },
   {
     name: 'Oct',
-    Attend: 50,
-    Task: 113,
-    Complaint: 29,
-    Referrals: 14
+    ComplaintsRaised: 50,
+    ComplaintsResolved: 113,
+    TaskRaised: 29,
+    TaskCompleted: 14
   },
   {
     name: 'Dec',
-    Attend: 79,
-    Task: 101,
-    Complaint: 4,
-    Referrals: 3
+    ComplaintsRaised: 79,
+    ComplaintsResolved: 101,
+    TaskRaised: 4,
+    TaskCompleted: 3
   },
 ];
 
 export const dataSales = [
   {
     name: 'Jan',
-    Fashions: 40,
-    Electronics: 124,
-    Toys: 17,
-    Vouchers: 20
+    Users: 40,
+    Bookings: 124,
+    Refunds: 17,
+    Parkings: 20
   },
   {
     name: 'Feb',
-    Fashions: 45,
-    Electronics: 100,
-    Toys: 2,
-    Vouchers: 100
+    Users: 45,
+    Bookings: 100,
+    Refunds: 2,
+    Parkings: 100
   },
   {
     name: 'Mar',
-    Fashions: 27,
-    Electronics: 20,
-    Toys: 0,
-    Vouchers: 80
+    Users: 27,
+    Bookings: 20,
+    Refunds: 0,
+    Parkings: 80
   },
   {
     name: 'Apr',
-    Fashions: 50,
-    Electronics: 120,
-    Toys: 29,
-    Vouchers: 14
+    Users: 50,
+    Bookings: 120,
+    Refunds: 29,
+    Parkings: 14
   },
   {
     name: 'May',
-    Fashions: 32,
-    Electronics: 117,
-    Toys: 20,
-    Vouchers: 86
+    Users: 32,
+    Bookings: 117,
+    Refunds: 20,
+    Parkings: 86
   },
   {
     name: 'Jun',
-    Fashions: 50,
-    Electronics: 34,
-    Toys: 11,
-    Vouchers: 29
+    Users: 50,
+    Bookings: 34,
+    Refunds: 11,
+    Parkings: 29
   },
   {
     name: 'Jul',
-    Fashions: 24,
-    Electronics: 40,
-    Toys: 3,
-    Vouchers: 40
+    Users: 24,
+    Bookings: 40,
+    Refunds: 3,
+    Parkings: 40
   },
   {
     name: 'Aug',
-    Fashions: 32,
-    Electronics: 117,
-    Toys: 20,
-    Vouchers: 86
+    Users: 32,
+    Bookings: 117,
+    Refunds: 20,
+    Parkings: 86
   },
   {
     name: 'Sept',
-    Fashions: 40,
-    Electronics: 20,
-    Toys: 24,
-    Vouchers: 100
+    Users: 40,
+    Bookings: 20,
+    Refunds: 24,
+    Parkings: 100
   },
   {
     name: 'Sept',
-    Fashions: 27,
-    Electronics: 20,
-    Toys: 0,
-    Vouchers: 80
+    Users: 27,
+    Bookings: 20,
+    Refunds: 0,
+    Parkings: 80
   },
   {
     name: 'Oct',
-    Fashions: 50,
-    Electronics: 113,
-    Toys: 29,
-    Vouchers: 14
+    Users: 50,
+    Bookings: 113,
+    Refunds: 29,
+    Parkings: 14
   },
   {
     name: 'Dec',
-    Fashions: 79,
-    Electronics: 101,
-    Toys: 4,
-    Vouchers: 3
+    Users: 79,
+    Bookings: 101,
+    Refunds: 4,
+    Parkings: 3
   },
 ];
 

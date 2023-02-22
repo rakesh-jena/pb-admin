@@ -33,17 +33,32 @@ export const data1 = [
 
 export const data2 = [
   {
-    name: 'Electronics',
+    name: 'Basic',
     value: 400
   }, {
-    name: 'Fashions',
+    name: 'Standard',
     value: 300
   },
   {
-    name: 'Toys',
+    name: 'Premium',
     value: 300
+  }
+];
+
+export const data3 = [
+  {
+    name: '2 Wheeler',
+    value: 400
   }, {
-    name: 'Other',
+    name: '4 Wheeler',
+    value: 300
+  },
+  {
+    name: '3 Wheeler',
+    value: 300
+  },
+  {
+    name: 'Passes',
     value: 200
   }
 ];

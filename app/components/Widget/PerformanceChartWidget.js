@@ -42,7 +42,7 @@ function PerformanceChartWidget(props) {
   return (
     <PapperBlock whiteBg noMargin title={intl.formatMessage(messages.performance_indicator)} icon="timeline" desc="">
       <Grid container spacing={2}>
-        <Grid item md={8} xs={12}>
+        <Grid item md={12} xs={12}>
           <ul className={classes.bigResume}>
             <li>
               <Avatar className={classNames(classes.avatar, classes.orangeAvatar)}>
@@ -51,7 +51,8 @@ function PerformanceChartWidget(props) {
               <Typography variant="h6">
                 <span className={classes.orangeText}>40</span>
                 <Typography noWrap>
-                  <FormattedMessage {...messages.attends} />
+                  {/* <FormattedMessage {...messages.attends} /> */}
+                  Complaints Raised
                 </Typography>
               </Typography>
             </li>
@@ -62,7 +63,8 @@ function PerformanceChartWidget(props) {
               <Typography variant="h6">
                 <span className={classes.indigoText}>125</span>
                 <Typography noWrap>
-                  <FormattedMessage {...messages.tasks_done} />
+                  {/* <FormattedMessage {...messages.tasks_done} /> */}
+                  Complaints Resolved
                 </Typography>
               </Typography>
             </li>
@@ -73,7 +75,8 @@ function PerformanceChartWidget(props) {
               <Typography variant="h6">
                 <span className={classes.pinkText}>17</span>
                 <Typography noWrap>
-                  <FormattedMessage {...messages.complaints} />
+                  {/* <FormattedMessage {...messages.complaints} /> */}
+                  Tasks Raised
                 </Typography>
               </Typography>
             </li>
@@ -84,14 +87,15 @@ function PerformanceChartWidget(props) {
               <Typography variant="h6">
                 <span className={classes.purpleText}>18</span>
                 <Typography noWrap>
-                  <FormattedMessage {...messages.referrals} />
+                  {/* <FormattedMessage {...messages.referrals} /> */}
+                  Tasks Completed
                 </Typography>
               </Typography>
             </li>
           </ul>
           <div className={classes.chartWrap}>
             <div className={classes.chartFluid}>
-              <ResponsiveContainer width={800} height="80%">
+              <ResponsiveContainer >
                 <ComposedChart
                   data={dataPerformance}
                 >
@@ -99,16 +103,16 @@ function PerformanceChartWidget(props) {
                   <YAxis axisLine={false} tickSize={3} tickLine={false} tick={{ stroke: 'none' }} />
                   <CartesianGrid vertical={false} strokeDasharray="3 3" />
                   <Tooltip />
-                  <Area type="basis" stackId="2" dataKey="Task" stroke="none" fill={color.secondary} />
-                  <Area type="monotone" stackId="1" stroke="none" dataKey="Attend" fill={color.fourth} />
-                  <Area type="monotone" stackId="3" dataKey="Referrals" stroke="none" fill={color.main} />
-                  <Line type="monotone" dataKey="Complaint" strokeWidth={2} stroke={color.third} />
+                  <Area type="basis" stackId="2" dataKey="ComplaintsResolved" stroke="none" fill={color.secondary} />
+                  <Area type="monotone" stackId="1" stroke="none" dataKey="ComplaintsRaised" fill={color.fourth} />
+                  <Area type="monotone" stackId="3" dataKey="TaskRaised" stroke="none" fill={color.main} />
+                  <Line type="monotone" dataKey="TaskCompleted" strokeWidth={2} stroke={color.third} />
                 </ComposedChart>
               </ResponsiveContainer>
             </div>
           </div>
         </Grid>
-        <Grid item md={4} xs={12}>
+        {/* <Grid item md={4} xs={12}>
           <Typography className={classes.smallTitle} variant="button">
             <FilterCenterFocus className={classes.leftIcon} />
             <FormattedMessage {...messages.achievement_target} />
@@ -136,7 +140,7 @@ function PerformanceChartWidget(props) {
               <LinearProgress variant="determinate" className={classNames(classes.progress, classes.blueProgress)} value={80} />
             </li>
           </ul>
-        </Grid>
+        </Grid> */}
       </Grid>
     </PapperBlock>
   );

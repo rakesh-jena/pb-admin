@@ -19,6 +19,7 @@ export Technology from './LandingPage/Technology';
 // Dashboard and Widget
 export CounterWidget from './Counter/CounterWidget';
 export CounterTrading from './Counter/CounterTrading';
+export PieChartsWidget from './Widget/PieChartsWidget';
 export CounterChartWidget from './Widget/CounterChartWidget';
 export CounterIconsWidget from './Widget/CounterIconsWidget';
 export CounterCryptoWidget from './Widget/CounterCryptoWidget';

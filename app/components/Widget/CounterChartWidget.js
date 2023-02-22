@@ -27,7 +27,7 @@ function CounterChartWidget(props) {
             end={20}
             duration={3}
             title={intl.formatMessage(messages.monthly_income)}
-            unitBefore="$ "
+            unitBefore="₹ "
             unitAfter="k"
           >
             <AssignmentReturned className={classes.counterIcon} />

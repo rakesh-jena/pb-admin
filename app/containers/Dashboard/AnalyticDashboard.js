@@ -16,7 +16,7 @@ import {
   WeatherWidget,
   ContactWidget,
   TimelineWidget,
-  FilesWidget,
+  FilesWidget, PieChartsWidget
 } from 'enl-components';
 import styles from './dashboard-jss';
 
@@ -44,12 +44,11 @@ function AnalyticDashboard(props) {
       <Divider className={classes.divider} />
       <SalesChartWidget />
       <Divider className={classes.divider} />
+      <PieChartsWidget />
+      <Divider className={classes.divider} />
       {/* 2nd Section */}
-      <Grid container spacing={3} className={classes.root}>
-        <Grid item xs={12}>
-          <PerformanceChartWidget />
-        </Grid>
-      </Grid>
+      <PerformanceChartWidget />
+      <Divider className={classes.divider} />
       {/* 3rd Section */}
       <Grid container spacing={3} className={classes.root}>
         <Grid item md={6} xs={12}>
